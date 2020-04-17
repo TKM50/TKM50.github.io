@@ -1,131 +1,190 @@
 <!DOCTYPE html>
-<!-- Do I need an article.html for the "read more" sections?  (i know that I have to a erase some content on index.html if im using article page.)-->
-<!-- Did I use h1 tags correctly? -->
-<html lang="en">
 
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, intial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=IBM+Plex+Serif&family=Oswald:wght@600&display=swap" rel="stylesheet">
     <title>Christina Matthews Resume</title>
   </head>
 
   <body>
-
-    <header>
-        <h1>Christina Kelly Matthews</h1>
-        <p> Student:  University of miami</p>
-        <p> Email:  ckm50@miami.edu</p>
-        <p>Address: 6630 SW 57th Ave, South Miami Fl, 33143 B-229</p>
-    </header>
-
-
-    <nav>
-      <ul>
-      <li><a href="#OfficeAssistant">Office Assistant ASAC</a></li>
-      <li><a href="#OfficeAssistant2">Office Assistant America Cabling</a></li>
-      <li><a href="#AssistantSeller">Assistant Vendor</a></li>
-      <li><a href="#ImportantLinks">Important Links</a></li>
-      <li><a href="#SkillandHobbies">Skills and Hobbies</a></li>
-      </ul>
-    </nav>
-
-
     <main>
+      <div class="grid">
+        <div class="title-menu">
+          <header>
+            <h1>Christina Kelly Matthews</h1>
+              <div id="box-model">
+                <img src="tina.jpg" alt="Christina Matthews" width="300"/>
+                  <ul>
+                    <li>Student: University of Miami</li>
+                    <li>Email: ckm50@miami.edu</li>
+                    <li>Address: 6630 SW 57th Ave, South Miami Fl, 33143 B-229</li>
+                  </ul>
+              </div>
+            </header>
 
-      <section>
-        <!--Office hours:  do i have to add the article here if i want to keep this full paragraph in the starting page?-->
-        <h2>ABOUT ME</h2>
-        <p>My goal is to obtain a part-time position that will support my objective on becoming a computer science specialist. Specifically looking for employment opportunities that will allow me to conduct research alongside a mentor, enhance my computers skills and allows creative and design freedom as I learn the business. I am a highly motivated person, very organized and a quick learner.</p>
-      </section>
+            <nav>
+              <h2>MENU</h2>
+                <ul>
+                  <li><a href="#office-assistant">Autism Spectrum Assessment Clinic</a></li>
+                  <li><a href="#office-assistant2">American Cabling</a></li>
+                  <li><a href="#office-assistant3">Mainstreet Technologies</a></li>
+                  <li><a href="#volunteer-service">Volunteer Service</a></li>
+                  <li><a href="#awards-certificates">Awards and Certificates</a></li>
+                  <li><a href="#leadership">Leadership</a></li>
+                  <li><a href="#activities">Activities</a></li>
+                </ul>
+            </nav>
+        </div>
 
 
+        <div class="about-me">
+          <section id="about-me">
+            <h2>ABOUT ME</h2>
+              <p>To obtain a part-time position that will support my objective on becoming a computer science specialist.  Specifically looking for employment opportunities that will allow me to conduct research alongside a mentor, enhance my computers skills and allows creative and design freedom as I learn the business.  I am a highly motivated person, very organized and a quick learner.</p>
+          </section>
+        </div>
 
+      <div class="education-courses">
+          <section id="education">
+            <article>
+              <h2> EDUCATION</h2>
+                <p>Sophomore, University of Miami</p>
+                <p>January 2018 – June 2021(Expected Graduation)</p>
+                <p>Coral Gables, Florida</p>
+                <p>Major:  Computer Science (Goal: Obtain a BA)</p>
+                <p>Minor:  Interactive Media</p>
+              </article>
+          </section>
+
+            <section id="courses">
+              <article>
+                <h2>RELATED C.S. COURSES</h2>
+                  <p>Computer Interactive Media 111 (Web Design Course)</p>
+                  <p>Computer Science 120 (Introduction to Java)</p>
+                  <p>Mathematics (Calculus)</p>
+              </article>
+            </section>
+      </div>
+
+      <div class="languages-projects">
+          <section id="languages">
+            <article>
+              <h2>LANGUAGES</h2>
+                <p>JavaScript (Intermediate)</p>
+                <p>CSS (Intermediate)</p>
+                <p>HTML (Advanced)</p>
+                <p>Java (Beginner)</p>
+            </article>
+          </section>
+
+          <section id="class-projects">
+            <article>
+              <h2>CLASS PROJECTS</h2>
+                <p>https://ckm50.github.io/</p>
+                <p>Assignment 4:  Use of CSS grid and CSS style sheets.</p>
+                <p>Assignment 5:  Use of jQuery plug ins, images and google fonts.</p>
+                <p>Assignment 6:  Use of image slideshow, JavaScript, jQuery and advanced CSS style sheets.</p>
+                <p>Assignment 7:  Use of JavaScript, jQuery, images and video frameworks.</p>
+            </article>
+        </section>
+      </div>
+
+      <div class="work-expierence">
         <section>
-        <h2>WORK EXPIERENCE</h2>
+          <article>
+            <h2>WORK EXPIERENCE</h2>
+              <h3 id="office-assistant"> Office Assistant</h3>
+                <p>Autism Spectrum Assessment Clinic</p>
+                <p>September 2018 to May 2019</p>
+                <p>Ponce De Leon Parking Garage, 5665 Ponce de Leon Blvd, Coral Gables, FL 33146</p>
+                <p><a href="https://umasac.psy.miami.edu">Autism Spectrum Assessment Clinic Website</a></p>
+                <ul>
+                  <li>Prepared letters, maintained appointments and calendars of managers, scheduled appointments, worked with parents and managers to ensure clear communication between the office and patients.  </li>
+                  <li>Worked as A liaison to reassure, ease and smooth out any misunderstandings or anxieties when problems arise. Organize client files, answer business phones and assist with anything the manager may need.</li>
+                </ul>
+          </article>
 
-      <article>
-        <h3 id="OfficeAssistant"> Office Assistant</h3>
-        <p>Autism Spectrum Assessment Clinic</p>
-        <p>September 2018 to May 2019</p>
-        <p>Ponce De Leon Parking Garage, 5665 Ponce de Leon Blvd, Coral Gables, FL 33146</p>
-        <ul>
-            <li>Prepared letters, maintained appointments and calendars of managers.</li>
-            <li>Scheduled appointments.</li>
-            <li>Worked with parents and managers to ensure clear communication between the office and patients.</li>
-            <li>Worked as liaison to reassure, ease and smooth out any misunderstandings or anxieties when problems arised.</li>
-            <li>Organized client files, answered business phones and assisted with anything the manager needed.</li>
-        </ul>
+          <article>
+            <h3 id="office-assistant2">Office Assistant</h3>
+              <p>June 2014 to July 2018</p>
+              <p>American Cabling Company (ACC)</p>
+              <p>551 Commerce Drive Upper Marlboro, Maryland </p>
+              <p><a href="http://www.accresource.com/">American Cabling Company Website</a></p>
+                <ul>
+                  <li> Assisted with the editing of the company’s website, organized client files and answered business phones, assisted with interviewing and hiring IT professionals for upcoming projects. </li>
+                  <li>  Conducted background checks, phone screens, sat with director as he conducted in-person interviews with potential candidates.</li>
+                  <li>  Created personnel folders for potential new hires, verified citizenship by using I9 and E-Verify, recorded interview notes, conducted initial screening on resumes to see if candidates were a good fit for the projects.</li>
+                </ul>
+          </article>
 
-      </article>
+          <article>
+            <h3 id="office-assistant3">Mainstreet Technologies</h3>
+              <p>June - July 2016</p>
+              <p>Baltimore, Maryland</p>
+              <p><a href="https://mainstreet2.com/"> Mainstreet Technologies Website</a>
+                <ul>
+                  <li>Worked with HR personnel to collect and enter data from employee timesheets.</li>
+                  <li>Assisted on project to convert paper-based timesheets to web application.</li>
+                  <li>Sat in on job interviews for potential contractor positions. </li>
+                  <li>Setup phone screens and help do initial background checks. Created excel spread sheets for HR department and IT department.</li>
+                </ul>
+          </article>
+        </section>
+    </div>
 
+      <div class="volunteer-awards">
+        <section>
+          <article>
+          <h3 id="volunteer-service">VOLUNTEER SERVICE</h3>
+              <p>August 2016 -May 2017 </p>
+              <p>Special Olympics Aid, Huntingtown, Maryland </p>
+              <p>Lead Special Olympics activities (dances, games and races) for participants
+              in the Calvert County community.</p>
 
-
-      <article>
-        <h3 id="OfficeAssistant2">Office Assistant</h3>
-           June 2014 to July 2018
-        <p>American Cabling Company (ACC)</p>
-        <p>551 Commerce Drive Upper Marlboro, Maryland </p>
-        <ul>
-          <li>Assisted with the editing of the company website, organized client files and answered business phones, assisted with interviewing and hiring IT professionals for upcoming projects.</li>
-          <li>Conducted background checks, phone screens, sat with director as he conducted in-person interviews with potential candidates.</li>
-          <li>Created personnel folders for potential new hires, verified citizenship by using I9 and E-Verify, recorded interview notes, conducted initial screening on resumes to see if candidates were a good fit for the projects.</li>
-          <li>Worked on blueprints for upcoming projects to identify areas that estimators would need to work on, and created spreadsheets that counted the number of locations.</li>
-          <li>I prepared draft calculations for overall cost for the projects.</li>
-          <li>Set up Drug Test screening for all new hires and prepared fingerprint applications for National Security background checks, for the Virginia Department of Justice for ACC employees contracted in the state of Virginia.</li>
-          <li>Prepared Certified Payroll Reports and reports for the Apprenticeship Program in the state Maryland.</li>
-
-      </ul>
-      </article>
-
-
-
-
-      <article>
-        <h3 id="AssistantSeller">Assistant Seller</h3>
-        <p>July 11th to 13th 2017</p>
-        <p> Baltimore, Maryland Convention Center</p>
-        <p> Premier Prints, (part-time summer) Baltimore, Maryland </p>
-        <ul>
-            <li>Sold merchandise to various convention attendees from mega church functions, gun shows, fortune 500 companies, pharmaceuticals companies and several more.</li>
-            <li>Dealt with many different types of personalities and attitudes and learned how to handle unhappy and rude customers as well as enjoy the ease of working with outstanding customers. </li>
-            <li>Became skilled at working at a fast pace while still pleasing the customers.</li>
-            <li>During down periods, organized booths knowing that merchandise items would be located easily and efficiently once booth became busy again.</li>
-        </ul>
+              <p>July 2016 - August 2016 </p>
+              <p>Teacher Assistant El Sendero, Costa Rica</p>
+              <p>Held classes to teach young adults English.  Used the five years Spanish skills I learned to teach young adults English.  Taught students how to write English specifically geared toward social media sites such as twitter and Instagram.</p>
+              <p>Assisted with building a bathroom for a family of four along with a sewage system for the town of Pejivalle.</p>
           </article>
         </section>
 
+        <section>
+          <article>
+            <h3 id= "awards-certificates">AWARDS/CERTIFICATES </h3>
+              <p>Academic Scholarship (Four years) - The Calverton School</p>
+              <p>President’s Volunteer Service Award - The White House</p>
+              <p>Certificate of Achievement – Costa Rica Community Services</p>
+        </article>
+      </section>
+    </div>
 
 
+      <div class="leadership-activities">
+        <section>
+          <article>
+            <h3 id="leadership">LEADERSHIP</h3>
+              <p>Student Panel Speaker</p>
+              <p>One of six students chosen to speak to new and prospective parents and students for the Calverton School.</p>
+              <p>Dean of Students Hiring Committee</p>
+              <p>Hand-picked by the faculty to serve on a committee of five to help choose the new Dean of students.  I was one of two students selected to help with the interviewing process. </p>
+          </article>
+        </section>
 
         <section>
-      <h3 id="ImportantLinks">IMPORTANT LINKS</h3>
-        <ol>
-          <li><a href="http://www.premierprintsinc.com/">Premier Prints</a></li>
-          <li><a href="https://umasac.psy.miami.edu">Autism Spectrum Assessment Clinic</a></li>
-          <li><a href="http://www.accresource.com/">American Cabling Company</a></li>
-        </ol>
-      </section>
-
-
-
-      <section>
-       <h3 id="SkillandHobbies">My Skills and Hobbies</h3>
-       <img src="me.jpg" alt="Christina Matthews"/>
-
-      <h3>My Skills</h3>
-        <ol>
-          <li>People person</li>
-          <li>Always on time</li>
-          <li>Expierenced in retail,food service and marketing, and office duties.</li>
-          <li>Extremley organized</li>
-        </ol>
-
-      <h3>My Hobbies</h3>
-        <p>I have always enjoyed playing with computers. Building websites has always been something I am interested in. My hobies include building websites and learning more computer skills.
-        </p>
-      </section>
-
-    </main>
-
-
+          <article>
+            <h3 id="activities">EXTRACURRICULAR ACTIVITIES </h3>
+              <p>Varsity Soccer</p>
+              <p>August 2015 – October 2016</p>
+              <p>MISAL 2016 Champions (undefeated) </p>
+              <p>1st runner up – 2016 and 2017 - MISAL Championship games</p>
+          </article>
+        </section>
+      </div>
+  </div>
+</main>
 </body>
 </html>
