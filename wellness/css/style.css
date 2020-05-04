@@ -49,7 +49,7 @@ ul {
 }
 
 li {
-  float:left;
+  float: left;
 
 }
 
@@ -70,6 +70,12 @@ li a.active {
   background-color: beige;
 }
 
+@media (max-width: 375px) {
+  ul {
+    width: 100%;
+  }
+
+}
 
 
 
