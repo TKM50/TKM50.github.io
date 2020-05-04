@@ -1,0 +1,327 @@
+
+/*Whole website section*/
+body{
+  background-image: url("../images/leaves.png");
+  font-family: 'Space Mono', monospace;
+}
+
+h1{
+  font-size: 55px;
+}
+
+
+h1, h2{
+font-family: 'Averia Serif Libre', cursive;
+}
+
+
+
+/*Links*/
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+a:hover {
+  color:mediumseagreen;
+}
+
+a:active {
+  color:DarkSeaGreen;
+}
+/*Links*/
+
+/*Navigation Bar*/
+ul {
+  list-style-type: none;
+  margin-left:150px;
+  margin-right:150px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid white;
+  background-color: #E7E2E2;
+}
+
+li {
+  float:left;
+
+}
+
+li a {
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: linen;
+}
+
+li a.active {
+  color: DarkOliveGreen;
+  background-color: beige;
+}
+
+
+/*Responsive Section (Mindul Practices)*/
+/*Dont forget you put the meta tag for all of them*/
+@media (max-width: 320px) {
+  /* mobile styles go here! */
+}
+
+/*Boss section*/
+#roundedimages{
+  border-radius: 50%;
+}
+
+/*Div Start*/
+.wrapper1 h1, h2{
+  color: DarkOliveGreen;
+}
+
+.wrapper1{
+  margin: auto;
+  max-width: 960px;
+  grid-gap: 20px;
+  text-align: center;
+  }
+/*Div End*/
+
+/*Mindful Practices Section*/
+/*Div Start*/
+.wrapper2 h1, h2{
+  color: DarkOliveGreen;
+}
+.wrapper2{
+  margin: auto;
+  max-width: 960px;
+  grid-gap: 20px;
+  text-align: center;
+  }
+/*Div End*/
+
+.incense{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.plants1{
+  background-color: linen;
+  width: 960px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+
+.pamper{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.meditate{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.blessings{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.bath{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.pet{
+  background-color: linen;
+  width: 961px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/*Organized Lifestyle Html Start*/
+/*Div Start*/
+.wrapper3 h1, h2{
+  color: DarkOliveGreen;
+}
+.wrapper3{
+  margin: auto;
+  max-width: 960px;
+  grid-gap: 20px;
+  text-align: center;
+  }
+
+/*Div End*/
+
+.comfort{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.todo{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.planner{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.schoolwork{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: DarkOliveGreen;
+  background-color: #ffe6cc;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px #ffcccc;
+}
+
+.button:hover {
+  background-color: linen;
+}
+
+.button:active {
+  background-color: DarkSeaGreen;
+  box-shadow: 0 3px #ffcccc;
+  transform: translateY(4px);
+}
+
+
+
+/*Body Health Html Start*/
+/*Div Start*/
+.wrapper4 h1, h2{
+  color: DarkOliveGreen;
+}
+
+.wrapper4{
+  margin: auto;
+  max-width: 960px;
+  grid-gap: 20px;
+  text-align: center;
+    }
+
+/*Div End*/
+
+.fruits{
+  background-color: linen;
+  width: 961px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.tea{
+  background-color: linen;
+  width: 500px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.water{
+  background-color: linen;
+  width: 961px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+
+
+.moderation{
+  background-color: linen;
+  width: 961px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.homemade{
+  background-color: linen;
+  width: 961px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.acv{
+  background-color: linen;
+  width: 961px;
+  border: 15px solid beige;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+
+
+/*Links*/

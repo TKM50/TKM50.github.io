@@ -1,0 +1,293 @@
+@media screen and  (max-width: 959px){
+/*Body Health*/
+  h1{
+        width:100%;
+  }
+
+  .navbar > li{
+        width:100%;
+        float: inherit;
+  }
+
+  .fruits{
+    width:100%;
+  }
+
+  .tea{
+    width:100%;
+  }
+
+  .water{
+    width:100%;
+  }
+
+  .planner{
+    width:100%;
+  }
+
+  .moderation{
+    width:100%;
+  }
+
+  .homemade{
+    width:100%;
+  }
+
+  .acv{
+    width:100%;
+  }
+  .footer{
+        width:100%;
+  }
+
+
+/*Organization html*/
+.comfort{
+width:100%;
+}
+
+.todo{
+  width:100%;
+}
+
+.planner{
+  width:100%;
+}
+
+.schoolwork{
+  width:100%;
+}
+
+.button{
+  width:100%;
+}
+
+
+
+/*Mindful Practices*/
+.incense{
+  width: 100%;
+}
+
+.plants1{
+  width: 100%;
+}
+
+
+.pamper{
+  width: 100%;
+}
+
+.meditate{
+  width: 100%;
+}
+
+.blessings{
+  width: 100%;
+}
+
+.bath{
+  width: 100%;
+}
+
+.pet{
+  width: 100%;
+}
+}
+@media screen and  (max-width: 640px){
+  /*Body Health*/
+
+  h1{
+        width:100%;
+  }
+
+  .navbar > li{
+        width:100%;
+        float: inherit;
+  }
+  
+  .fruits{
+    width:100%;
+  }
+
+  .tea{
+    width:100%;
+  }
+
+  .water{
+    width:100%;
+  }
+
+  .planner{
+    width:100%;
+  }
+
+  .moderation{
+    width:100%;
+  }
+
+  .homemade{
+    width:100%;
+  }
+
+  .acv{
+    width:100%;
+  }
+
+.footer{
+      width:100%;
+}
+
+
+
+/*Organization Html*/
+.comfort{
+width:100%;
+}
+
+.todo{
+  width:100%;
+}
+
+.planner{
+  width:100%;
+}
+
+.schoolwork{
+  width:100%;
+}
+
+.button{
+  width:100%;
+}
+
+/*Mindful Practices*/
+.incense{
+  width: 100%;
+}
+
+.plants1{
+  width: 100%;
+}
+
+
+.pamper{
+  width: 100%;
+}
+
+.meditate{
+  width: 100%;
+}
+
+.blessings{
+  width: 100%;
+}
+
+.bath{
+  width: 100%;
+}
+
+.pet{
+  width: 100%;
+}
+
+
+}
+
+/*Iphone X is 375px*/
+@media screen and  (max-width: 375px){
+/*Body Health*/
+  h1{
+        width:375px;
+  }
+
+  .navbar > li{
+        width:375px;
+        float: inherit;
+  }
+
+  .fruits{
+    width:375px;
+  }
+
+  .tea{
+    width:375px;
+  }
+
+  .water{
+    width:375px;
+  }
+
+  .planner{
+    width:375px;
+  }
+
+  .moderation{
+    width:375px;
+  }
+
+  .homemade{
+    width:375px;
+  }
+
+  .acv{
+    width:375px;
+
+}
+.footer{
+      width:375px;
+}
+
+
+
+/*Organization Html*/
+.comfort{
+width:375px;
+}
+
+.todo{
+width:375px;
+}
+
+.planner{
+  width:375px;
+}
+
+.schoolwork{
+  width:375px;
+}
+
+.button{
+  width:375px;
+}
+
+/*Mindful Practices*/
+.incense{
+  width: 375px;
+}
+
+.plants1{
+  width: 375px;
+}
+
+
+.pamper{
+  width: 375px;
+}
+
+.meditate{
+  width: 375px;
+}
+
+.blessings{
+  width: 375px;
+}
+
+.bath{
+  width: 375px;
+}
+
+.pet{
+  width: 375px;
+}
+}
