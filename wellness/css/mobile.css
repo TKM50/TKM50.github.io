@@ -90,6 +90,8 @@ width:100%;
   width: 100%;
 }
 }
+
+
 @media screen and  (max-width: 640px){
   /*Body Health*/
 
@@ -187,95 +189,95 @@ width:100%;
 }
 
 /*Iphone X is 375px*/
-@media screen and  (max-width: 320px){
+@media screen and  (max-width: 375px){
 /*Body Health*/
 
   h1{
-        width:320px;
+        width:375px;
   }
 
   .fruits{
-    width:320px;
+    width:375px;
   }
 
   .tea{
-    width:320px;
+    width:375px;
   }
 
   .water{
-    width:320px;
+    width:375px;
   }
 
   .planner{
-    width:320px;
+    width:375px;
   }
 
   .moderation{
-    width:320px;
+    width:375px;
   }
 
   .homemade{
-    width:320px;
+    width:375px;
   }
 
   .acv{
-    width:320px;
+    width:375px;
 
 }
 .footer{
-      width:320px;
+      width:375px;
 }
 
 
 
 /*Organization Html*/
 .comfort{
-width:320px;
+width:375px;
 }
 
 .todo{
-width:320px;
+width:375px;
 }
 
 .planner{
-  width:320px;
+  width:375px;
 }
 
 .schoolwork{
-  width:320px;
+  width:375px;
 }
 
 .button{
-  width:320px;
+  width:375px;
 }
 
 /*Mindful Practices*/
 .incense{
-  width:320px;
+  width:375px;
 }
 
 .plants1{
-  width:320px;
+  width:375px;
 }
 
 
 .pamper{
-  width:320px;
+  width:375px;
 }
 
 .meditate{
-  width:320px;
+  width:375px;
 }
 
 .blessings{
-  width:320px;
+  width:375px;
 }
 
 .bath{
-  width:320px;
+  width:375px;
 }
 
 .pet{
-  width:320px;
+  width:375px;
 }
 }

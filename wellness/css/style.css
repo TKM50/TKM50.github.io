@@ -36,6 +36,7 @@ a:active {
 /*Links*/
 
 /*Navigation Bar*/
+
 ul {
   list-style-type: none;
   margin-left:150px;
@@ -52,7 +53,7 @@ li {
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: orange;
   text-align: center;
   padding: 14px 16px;
@@ -67,6 +68,8 @@ li a.active {
   color: DarkOliveGreen;
   background-color: beige;
 }
+
+
 
 
 
