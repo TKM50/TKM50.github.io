@@ -19,6 +19,7 @@ font-family: 'Averia Serif Libre', cursive;
 /*Links*/
 a:link {
   text-decoration: none;
+  color: darkgreen;
 }
 
 a:visited {
