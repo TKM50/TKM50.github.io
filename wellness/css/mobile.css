@@ -187,94 +187,95 @@ width:100%;
 }
 
 /*Iphone X is 375px*/
-@media screen and  (max-width: 375px){
+@media screen and  (max-width: 320px){
 /*Body Health*/
+
   h1{
-        width:375px;
+        width:320px;
   }
 
   .fruits{
-    width:375px;
+    width:320px;
   }
 
   .tea{
-    width:375px;
+    width:320px;
   }
 
   .water{
-    width:375px;
+    width:320px;
   }
 
   .planner{
-    width:375px;
+    width:320px;
   }
 
   .moderation{
-    width:375px;
+    width:320px;
   }
 
   .homemade{
-    width:375px;
+    width:320px;
   }
 
   .acv{
-    width:375px;
+    width:320px;
 
 }
 .footer{
-      width:375px;
+      width:320px;
 }
 
 
 
 /*Organization Html*/
 .comfort{
-width:375px;
+width:320px;
 }
 
 .todo{
-width:375px;
+width:320px;
 }
 
 .planner{
-  width:375px;
+  width:320px;
 }
 
 .schoolwork{
-  width:375px;
+  width:320px;
 }
 
 .button{
-  width:375px;
+  width:320px;
 }
 
 /*Mindful Practices*/
 .incense{
-  width: 375px;
+  width:320px;
 }
 
 .plants1{
-  width: 375px;
+  width:320px;
 }
 
 
 .pamper{
-  width: 375px;
+  width:320px;
 }
 
 .meditate{
-  width: 375px;
+  width:320px;
 }
 
 .blessings{
-  width: 375px;
+  width:320px;
 }
 
 .bath{
-  width: 375px;
+  width:320px;
 }
 
 .pet{
-  width: 375px;
+  width:320px;
 }
 }
